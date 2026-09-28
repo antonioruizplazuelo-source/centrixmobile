@@ -1,0 +1,174 @@
+tenemos que terminar de añadir los equipos, pci, modulos,submodulos,preguntas formulario ,etc que faltan, de momento solo tenemos creado modulos para cuadro electrico. faltan estos:
+equipos de fuerza
+extintores pci
+baterias
+clima
+bombas de agua
+
+igual a los todos los equipos en el desplegable le podrias poner iconos emogis represntativo de cada uno , acurerdate del que ya tenemos creado cuadro electrico, y si creo un equipo nuevo , la app deberia mostrarme mas iconos ,emogis para poder añadirlos, descarga una pequeña biblioteca de iconos-emogis representativos del tema que estamos tratando
+
+a modo de recordatorio te muestro lo siguiente que ya deberias de saver para poner el tipo correto en cada campo del formulario y mas abajo despues de un asterico te pondre los equipos consus modulos, submodulos tipo de campo,etc, recuerda que todo tiene que ser editable desde configuracion, para editar,modificar,añadir,borrar,etc como tenemos ya con el cuadro electrico y listas desplegables
+:
+
+tipo0 si - no ( pues eso elegir entre si o no )
+tipo1 test  ok , no  ok  , n/a , corregido ( con iconos detallados, si pongo no ok o corregido deberá mostrarme un campo para poner una breve descripción del problema con salto de linea y que se ajuste al contenido)
+tipo2 con lista desplegable editable desde configuración, si no encuentro lo que quiero poder escribir lo que necesite
+tipo3 numero 
+tipo4 texto largo ( pues eso un campo donde pueda escribir el texto que yo quiera, con salto de linea y que se ajuste al contenido)
+
+tipo5 fecha dia/mes/año  difuminado para saber donde poner dia mes y año y tambien por calendario
+tipo6 fecha mes/año  difuminado para saber donde poner mes y año y tambien por calendario
+tipo7 fecha año  difuminado para saber donde poner año y tambien por calendario
+
+
+cada equipo , añadira diferentes resultados y pruebas, teniendo en cuenta que si hay mas de un equipo del mismo tipo, tambien se duplican resultados y valores.. te indico de momento solo el desglose de un tipo de equipo para no  liarla mucho y cuando lo tengamos a mi gusto te indico los siguientes. hay pruebas que aparte del resultado tipo test pueden pedir valor o varios valores, mediciones. a cada prueba , le podremos añadir un comentario tipo leyenda o poput que al parar encima se despliegle para una breve descripcion de como se realiza la prueba
+
+
+*equipo equipos de fuerza
+	a modo de formulario resultados y pruebas creara los siguientes modulos:
+		-EQUIPOS DE FUERZA 	
+					EQUIPO DE FUERZA CONSUMOS BARRA PRIO/ NO PRIO			tipo1  +		CONSUMO DC EN BARRA PRIO (A)			tipo3
+
+																CONSUMO DC EN BARRA NO PRIO (A)			tipo3
+
+
+					EQUIPO FUERZA APARIENCIA FISICA DEL EQUIPO Y DE SUS BATERIAS 	tipo1
+
+					EQUIPO FUERZA CAPACIDAD DE BATERIAS (AH)			tipo1	+		AMPERIO HORA (AH)				tipo3
+
+					EQUIPO FUERZA CONSUMO EQUIPO ENERGIA				tipo1	+		CONSUMO EQUIPO ENERGIA (A)			tipo3
+
+																LIMITACION DE CORRIENTE PARA LA CARGA		
+																DE BATERIAS CONFIGURADA EN EL EQUIPO DE ENERGIA tipo3
+	
+																TENSION DE CORTE EN BARRA PRIO (V)		tipo3
+
+																TENSION DE CORTE DE LA BARRA NO PRIORITARIA
+ 																CONFIGURADA EN EL EQUIPO DE ENERGIA.		tipo3
+
+					EQUIPO FUERZA NUMERO DE STRING INSTALADOS			tipo1	+		Nº STRING INSTALADOS				tipo3
+
+																NUMERO DE BATERIAS POR STRING			tipo3	
+
+					EQUIPO FUERZA NUMERO RECTIFICADORES INSTALADOS			tipo1	+		Nº DE RECTIFICADORES INSTALADOS			tipo3
+
+																Nº RECTIFICADORES AVERIADOS			tipo3
+
+																RECTIFICADOR POTENCIA				tipo3
+
+					EQUIPO FUERZA ROTULAR EL CODIGO DE EMPLAZAMIENTO DE LAS BATERIAS tipo1
+
+					REAPRIETE TORNILLERIA ANUAL					tipo1
+
+					REVISAR DATOS DE MARCA Y MODELO DE BATERIAS			tipo1 + 		Añadir la antiguedad de las baterias 
+																(fecha), si no hay indicar la fecha 1900-01-01	tipo3
+					
+					TENSION DE SALIDA (V)						tipo1 +			TENSION DE SALIDA (V)				tipo3
+
+
+*equipo extintor pci
+	a modo de formulario resultados y pruebas creara los siguientes modulos:
+		-PCI BJ EXTINTORES
+					TODOS LOS EXTINTORES ESTAN RETIMBRADO CONFORME A REGLAMENTACION EN VIGOR Y DISPONEN DE SU CORRESPONDIENTE ETIQUETA IDENTIFICATIVA	TIPO1
+
+					TIENEN SUS INSTRUCCIONES DE MANEJO EN LA PARTE DELANTERA Y SON LEGIBLES.								TIPO1
+
+					SON ADECUADOS CONFORME AL RIESGO A PROTEGER.												TIPO1
+
+					SON ACCESIBLES																TIPO1	
+
+					SE HA CUMPLIMENTADO LA ETIQUETA DE MANTENIMIENTO											TIPO1
+
+					LOS EXTINTORES DE MAS DE 3 KG TIENEN MANGUERA												TIPO1
+
+					LAS COMPONENTES (BOQUILLAS, VALVULA, MANGUERA ) ESTAN EN BUEN ESTADO.									TIPO1
+
+					LA PRESION SEGUN MANOMETRO DE LOS EXTINTORES (EXCLUIDO C02 Y PRESION ADOSADA) ES CORRECTA.						TIPO1
+	
+					ESTAN LOS EXTINTORES EN SU LUGAR ASIGNADO Y QUE NO PRESENTAN MUESTRAS APARENTES DE DAÑOS						TIPO1
+
+					ESTAN INSTALADOS DE TAL FORMA QUE LA ALTURA DE LA MANETA AL SUELO ESTE COMPRENDIDA ENTRE 0,8 Y 1,2 SEGUN RD 513/2017 O SEA MENOR DE	TIPO1
+
+					ESTAN CORRECTAMENTE SEÑALIZADOS, SIENDO LA SEÑAL VISIBLE DESDE TODOS LOS ANGULOS Y DEBIDAMENTE FIJADA.					TIPO1
+
+					EL ASPECTO EXTERNO ESTA LIBRE CORROSION, GOLPES O ABOLLADURAS										TIPO1
+
+					EL ANCLAJE Y SOPORTE SON CORRECTOS													TIPO1
+
+					DISPONE Y NO ESTAN ROTOS LOS PRECINTOS O LOS TAPONES INDICADORES DE USO.								TIPO1
+
+					DISPONE DE LA ETIQUETA DE REVISION POR EMPRESA RESPONSABLE DEL MANTENIMIENTO EN CORRECTO ESTADO, VISIBLE Y LEGIBLE			TIPO1
+
+					DISPONE DE  MARCADO CE, COMO EQUIPO A PRESION, Y  MARCA DE CONFORMIDAD A NORMA								TIPO1
+
+	-PCI EXTINTORES PCI		EXTINTORES. COMPROBACION ACCESIBILIDAD, SEÑALIZACION Y ESTADO		TIPO1
+
+					EXTINTORES. FECHA DEL ULTIMO TIMBRADO					TIPO1  +		FECHA TIMBRADO (5 AÑOS)			TIPO6
+
+																	FECHA ANTIGUEDAD EXTINTOR (20 AÑOS)	TIPO7
+
+					REPOSICION DE EXTINTORES						TIPO1  +		INDICAR FECHA REPOSICION		TIPO5
+
+					EXTINTOR								TIPO1  +		TIPO EXTINTOR				TIPO2
+
+																	FECHA ULTIMA REVISIÓN			TIPO5
+
+																	CAPACIDAD KG				TIPO3
+
+																	PRESIÓN					TIPO0
+
+		
+
+	-PCI BJ DETECTORES
+					¿EXISTEN EN LA INSTALACION DETECTORES CON UNA ANTIGUEDAD SUPERIOR A 10 AÑOS O SUPERIOR A LA PRESCRITA POR EL FABRICANTE, INSTALADOS	TIPO1	
+
+					¿SE ENCUENTRAN LOS DETECTORES FUERA DE LA INFLUENCIA DE CORRIENTES DE AIRE DEBIDAS A LA CLIMATIZACION O VENTILACION?			TIPO1
+
+					¿SE MANTIENE UN ESPACIO LIBRE, POR DEBAJO DEL DETECTOR Y EN TODAS LAS DIRECCIONES, DE COMO MINIMO 500 MM?				TIPO1
+
+					¿TIENEN LOS DETECTORES MARCADO CE O MARCA DE CONFORMIDAD O EVALUACION TECNICA FAVORABLE?						TIPO1
+
+					EL ESTADO DE LOS DETECTORES (FIJACION, LIMPIEZA, CORROSION, ASPECTO EXTERIOR) ¿ES CORRECTO?						TIPO1
+
+					EN CASO AFIRMATIVO SE DEBE INDICAR A LA PROPIEDAD/USUARIO LA CANTIDAD DE EQUIPOS A RENOVAR.	TIPO1 +		CANTIDAD DE EQUIPOS A RENOVAR.  TIPO3
+
+					LA SEÑALIZACION LOCAL DE LOS DETECTORES SITUADOS EN ESPACIOS OCULTOS, ¿ESTA REALIZADA CON INDICADORES DE ACCION Y FUNCIONAN CORRECTA	TIPO1
+
+					TODAS LAS ZONAS QUE REQUIEREN COBERTURA CON DETECTORES, ¿ESTAN CONVENIENTEMENTE PROTEGIDAS SEGUN LA REGLAMENTACION APLICABLE?		TIPO1
+
+
+
+*EQUIPOS BATERIAS
+	a modo de formulario resultados y pruebas creara los siguientes modulos:
+	-BATERIAS
+
+					ACCESO REPOSICION DE TIERRAS		TIPO1
+	 		  	        BATERIAS CONDUCTANCIA			TIPO1  +						TENSION				TIPO3
+				
+																	VALOR MANUFACTURACION		TIPO3	
+
+																	CONDUCTANCIA			TIPO3	
+
+																	RATIO				TIPO3
+
+					CONTACTOS DIRECTOS					TIPO1
+					
+					CORROSION						TIPO1
+
+					EQUIPO FUERZA VASELINA EN BORNES BATERIAS		TIPO1
+
+					ESTADO TERMINALES					TIPO1
+
+					IDENTIFICACION Y ROTULACION CON CODIGO DE EMPLAZAMIENTO	TIPO1
+
+					INTEGRIDAD DE LOS RECIPIENTES DE LAS BATERIAS		TIPO1
+	
+					REAPRIETE TORNILLERIA					TIPO1
+
+
+
+QUEDARIA TODAVIA CASETA,CLIMA Y BOMBAS DE AGUA
+
+
+TE PASO UNOS ARCHIVOS DE NOTAS ,PROCEDIMEINTOS AYUDAS PARA HACER PREVENTIVOS, A VER SI PUEDES RECOPILAR TODO Y HACER ALGO FUNCIONAL , UNA AYUDA PARA REALIZAR PREVENTIVOS, PROCEMIENTOS ,ETC TODO LO QUE SAQUES DE ESTOS ARCHIVOS. ESTO LO PONDRAS EN UNA NUEVA SECION AYUDA, DONDE TAMBIEN PONDRAS MANUAL USUARIO DE LA APP PARA SABE RUTILIZARLA
+		

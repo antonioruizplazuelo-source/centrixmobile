@@ -1,0 +1,58 @@
+
+ DE Eulen Vigo Rafa Dominguez Castro
+
+cuadro eléctrico AC...tomar tensiones equipo energía -48...indicar equipo y anotar valores del display baterías...indicar bancadas, fechas y tensiones pci....como siempre, extintores con fechas, detectores humos, iluminarias clima... indicar si existe aacc, fabricante y fecha 14:17
+
+
+
+Para PCI
+CAMBIO EXTINTOR: SI O NO VIDA 20 AÑOS, TIMBRADO CADA 5
+DATOS EXTINTOR ORIGINAL: (Nº SERIE: XXX – FECHA FABRICACIÓN: XXX – FECHA ÚLTIMO TIMBRADO: XXX)
+DATOS EXTINTOR NUEVO (SI APLICA): (Nº SERIE: XXX – FECHA FABRICACIÓN: XXX – FECHA ÚLTIMO TIMBRADO: XXX)
+CAMBIO SEÑALIZACIONES: SI O NO
+NÚMERO SEÑALIZACIONES CAMBIADAS: X Y TIPO (PUERTA / EXTINTOR) NORMATIVA UNE Y MENOS DE 10 AÑOS
+PRUEBA LUMINARIA 30 DE EMERGENCIA: OK o NO OK
+NÚMERO LUMINARIAS CAMBIADAS (SI APLICA): X
+PRUEBA DETECTOR DE HUMOS: OK o NO OK
+MODELO DATOS DETECTOR HUMO CAMBIADO (SI APLICA): XXXXXXX
+OBSERVACIONES: OTRAS CIRCUNSTANCIAS QUE SE CONSIDERE QUE ES INTERESANTE QUE QUEDEN REFLEJADAS O CAMBIO DE ALGÚN OTRO ELEMENTO NO COMÚN.
+
+
+
+
+**********************************************************
+
+Para clima necesito
+Modelo o AA:
+Tipo de filtro:
+Que se hizo con el filtro:
+Funcionamiento extractor:
+***********************************************************
+
+Realización Preventivo Contra Incendio (PCI)
+1. Revisar detector de humos, se aplica el espray de pruebas y si no funciona tenemos
+que cambiarlo
+2. Revisar emergencias con una prueba de media hora si no funciona tenemos que
+cambiarlas
+3. Revisar señalización de salida, extintor y evacuación. Debe cumplir estos requisitos
+
+Debe tener escrita norma UNE
+
+La fecha debe ser inferior a 10 años
+
+No puede estar rota
+
+Tienen que estar correctamente fijadas en su sitio y forma
+4. Revisión del extintor. Debe cumplir estos requisitos
+
+Fecha de retimbrado inferior a 5 años
+
+Fecha de fabricación inferior a 20 años
+
+Pero adecuado, verificar que no está vacio
+
+Siempre debe estar colgado para que no tenga riesgo de romperse
+
+No puede estar colgado a más de 1,60m la parte superior del extintor
+
+

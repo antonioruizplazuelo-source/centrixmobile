@@ -1,0 +1,4238 @@
+{
+  "app": "codigoFibras",
+  "version": 1,
+  "exportedAt": "2026-05-15T09:04:43.476Z",
+  "cables": [
+    {
+      "id": "rcable-128",
+      "name": "128 F.O. — 16 tubos × 8 fibras",
+      "operator": "R CABLE",
+      "notes": "Tubos 1-4 interior · 5-16 exterior",
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "label": "Interior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "label": "Interior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "label": "Interior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "label": "Interior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        }
+      ],
+      "type": "Tubos 1 a 4 Interior"
+    },
+    {
+      "id": "rcable-64",
+      "name": "64 F.O. — Draka 8 tubos × 8 fibras",
+      "operator": "R CABLE",
+      "notes": "Pares por color",
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rcable-32",
+      "name": "32 F.O. — 4 tubos × 8 fibras",
+      "operator": "R CABLE",
+      "notes": "",
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        }
+      ],
+      "type": "Vodafone - Tesa"
+    },
+    {
+      "id": "rcable-16-lszh",
+      "name": "16 F.O. LSZH_VT — 4 tubos × 4 fibras",
+      "operator": "R CABLE",
+      "notes": "",
+      "tubes": [
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "amarillo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rcable-16-kt",
+      "name": "16 F.O. KT — Draka 4 tubos × 4 fibras",
+      "operator": "R CABLE",
+      "notes": "",
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rcable-4",
+      "name": "4 F.O. — 2 tubos × 2 fibras",
+      "operator": "R CABLE",
+      "notes": "",
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rcable-splitter",
+      "name": "Splitter / Cajas rabillo — 12 fibras",
+      "operator": "R CABLE",
+      "notes": "Secuencia TIA-598",
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "label": "Rabillo",
+          "fibers": [
+            "azul",
+            "naranja",
+            "verde",
+            "marron",
+            "gris",
+            "blanco",
+            "rojo",
+            "negro",
+            "amarillo",
+            "violeta",
+            "rosa",
+            "turquesa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-sp8hh08",
+      "name": "64 F.O. — 8 tubos × 8 fibras otro",
+      "operator": "R CABLE",
+      "notes": "Pares por color",
+      "tubes": [
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "amarillo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "gris",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "violeta",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "marron",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "naranja",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7hzmm0a",
+      "name": "2 F.O. — 1 tubos × 2 fibras",
+      "operator": "R CABLE",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "blanco",
+            "rojo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-jxpzjjp",
+      "name": "32 F.O. — 8 tubos × 4 fibras Draka",
+      "operator": "+Orange",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ojqeces",
+      "name": "32 F.O. — Micro Tubo 4 tubos × 8 fibras",
+      "operator": "+Orange",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "amarillo",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-nu0uawv",
+      "name": "32 F.O. — VT 8 tubos × 4 fibras ",
+      "operator": "+Orange",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "amarillo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "gris",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "violeta",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "marron",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "naranja",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-vjlmlyh",
+      "name": "32 F.O. — Riser 8 tubos × 4 fibras",
+      "operator": "+Orange",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "gris",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "violeta",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "marron",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "naranja",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-psleg9v",
+      "name": "48F.O. — 6tubos × 8fibras",
+      "operator": "Tesa -Vodafone",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-r641odd",
+      "name": "24F.O. — 6tubos × 4 fibras Draka",
+      "operator": "Tesa -Vodafone",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-l9blsy4",
+      "name": "64 F.O. — Draka 8 tubos × 8 fibras",
+      "operator": "+Orange",
+      "notes": "Pares por color",
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        }
+      ],
+      "type": "R cable - Vodafone - Tesa"
+    },
+    {
+      "id": "c-4hqc4ht",
+      "name": "64F.O. — Micro Tubo 8 tubos × 8fibras",
+      "operator": "+Orange",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "amarillo",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "violeta",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "naranja",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "gris",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-topu0ls",
+      "name": "96F.O. — Micro Tubo 12 tubos × 8 fibras ",
+      "operator": "+Orange",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "amarillo",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "violeta",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "naranja",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "gris",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "marron",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "turquesa",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "rosa",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-hypqky7",
+      "name": "128 F.O. — Draka 16 tubos × 8 fibras",
+      "operator": "+Orange",
+      "notes": "Tubos 1-4 interior · 5-16 exterior",
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "label": "Interior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "label": "Interior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "label": "Interior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "label": "Interior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "label": "Exterior",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        }
+      ],
+      "type": "R Cable - Vodafone -+Orange Tubos 1 a 4 Interior"
+    },
+    {
+      "id": "c-1f3qfd2",
+      "name": "128F.O. — Draka 8 tubos × 16fibras ",
+      "operator": "Tesa -Vodafone",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-wg03trj",
+      "name": "128F.O. — Micro Tubo 16tubos × 8fibras Draka",
+      "operator": "+Orange",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "amarillo",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "violeta",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "naranja",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "gris",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "marron",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "turquesa",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "rosa",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "rojo/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "azul/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "verde/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "amarillo/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-wd1ylld",
+      "name": "144F.O. — Micro Tubo 18 tubos × 8fibras ",
+      "operator": "+Orange",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "amarillo",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "violeta",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "naranja",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "gris",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "marron",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "turquesa",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "rosa",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "rojo/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "azul/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "verde/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "amarillo/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "violeta/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "blanco/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0qbn2yu",
+      "name": "256 F.O. — Draka 16 tubos × 16 fibras ",
+      "operator": "Tesa -Vodafone",
+      "type": "Tubos 1 a 4 Interior",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "blanco",
+            "negro",
+            "rosa",
+            "turquesa",
+            "blanco:1",
+            "amarillo:1",
+            "naranja:1",
+            "rosa:1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-x9rhu6o",
+      "name": "288 F.O. — Micro Tubo 18 tubos × 16 fibras ",
+      "operator": "+Orange",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "amarillo",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "violeta",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "naranja",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "gris",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "marron",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "turquesa",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "rosa",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "rojo/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "azul/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "verde/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "amarillo/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "violeta/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        },
+        {
+          "colorId": "blanco/negro",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris",
+            "marron",
+            "negro",
+            "turquesa",
+            "rosa",
+            "rojo/negro",
+            "azul/negro",
+            "verde/negro",
+            "amarillo/negro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bvo32k9",
+      "name": "512 F.O. — Draka 16 tubos × 32 fibras ",
+      "operator": "Tesa -Vodafone",
+      "type": "Tubos 1 a 4 Interior",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja",
+            "verde:1",
+            "rojo:1",
+            "azul:1",
+            "amarillo:1",
+            "gris:1",
+            "violeta:1",
+            "blanco:1",
+            "naranja:1",
+            "verde:2",
+            "rojo:2",
+            "azul:2",
+            "amarillo:2",
+            "gris:3",
+            "violeta:2",
+            "blanco:2",
+            "naranja:2",
+            "verde:3",
+            "rojo:3",
+            "azul:3",
+            "amarillo:3",
+            "gris:3",
+            "violeta:3",
+            "blanco:3",
+            "naranja:3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-xxdzh2e",
+      "name": "16 F.O. LSZH_VT — 4 tubos × 4 fibras",
+      "operator": "+Orange",
+      "notes": "",
+      "tubes": [
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "amarillo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        }
+      ],
+      "type": "R Cable - Orange"
+    },
+    {
+      "id": "c-53yadan",
+      "name": "16 F.O. KT — Draka 4 tubos × 4 fibras",
+      "operator": "+Orange",
+      "notes": "",
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        }
+      ],
+      "type": "R Cable - Orange"
+    },
+    {
+      "id": "c-sg41qq0",
+      "name": "16 F.O. — Micro Tubo 2 tubos × 8 fibras ",
+      "operator": "+Orange",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6qz9oir",
+      "name": "8 F.O. — KT  1 tubo × 8 fibras Tipo 1",
+      "operator": "+Orange",
+      "type": "R Cable - +Orange",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-n4lfogg",
+      "name": "8 F.O. — KT  1 tubo × 8 fibras Tipo 2",
+      "operator": "+Orange",
+      "type": "R Cable - +Orange",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-rnc600k",
+      "name": "8 F.O. — KT  1 tubo × 8 fibras Tipo 1",
+      "operator": "R CABLE",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-u05vgzg",
+      "name": "8 F.O. — KT  1 tubo × 8 fibras Tipo 2",
+      "operator": "R CABLE",
+      "type": "",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "violeta",
+            "blanco",
+            "naranja",
+            "gris"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-w8fubb8",
+      "name": "16 F.O. — Riser LSZH-FR 4 tubo × 4 fibras ",
+      "operator": "+Orange",
+      "type": "Riser",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-yatljts",
+      "name": "24 F.O. — Riser LSZH-FR 6 tubo × 4 fibras ",
+      "operator": "+Orange",
+      "type": "Riser",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "gris",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "violeta",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cx1wn0z",
+      "name": "24 F.O. — Riser LSZH-FR 8 tubo × 4 fibras ",
+      "operator": "+Orange",
+      "type": "Riser",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "gris",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "violeta",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "marron",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        },
+        {
+          "colorId": "naranja",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ftvezqb",
+      "name": "48 F.O. — Riser LSZH-FR 6 tubo × 8 fibras ",
+      "operator": "+Orange",
+      "type": "Riser",
+      "notes": "",
+      "photos": [],
+      "tubes": [
+        {
+          "colorId": "verde",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "rojo",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "azul",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "blanco",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "gris",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        },
+        {
+          "colorId": "violeta",
+          "fibers": [
+            "verde",
+            "rojo",
+            "azul",
+            "amarillo",
+            "gris",
+            "violeta",
+            "marron",
+            "naranja"
+          ]
+        }
+      ]
+    }
+  ]
+}

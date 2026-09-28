@@ -1,0 +1,23 @@
+- a la hora de compartir, por lo menos en windows, veo telegram y lo tengo instalado en el pc, pero abre unigram esto esta mal creo. es igual que si selecion correo, no me detecta mi outlook de toda la vida, nos e si podemos mejorar esto. en el movil parece funcionar bien
+-en el movil al darle para atras cuando llega a la pantalla principal  se cierra la app directamente y no me gusta, deberia saltar el aviso de guardar,salir sin guardadr o cancelar y seguir en la app
+
+- funcionalida de googledrive, como podemos hacer que al darle a guardar se guarde automaticemnet una copia en drive?, todo lo que se guarde en drive solo se podra borrar desde la propia cuenta no desde la app, pero si podra sobreescribir y añadir. de alguna forma tenemos que poder selecionar carpeta en drive para realizar esto, con la misma ruta y nomenclatura que utilizamos localmente
+
+
+sobre esto creo que mejor instalador propio
+- como hacemos un autoinstalable para windows y para android que funcie en cualquier ordenador como una aplicacion independiente para que no le afecte borrados cache y cosas asi que sea totalmente funcional a todas las opciones que tenemos para windows y andrid, con su icono representativo de la app tanto en el instalador como en la barra de tareas de windows y el equivalente en android.
+
+realizame un pront para darselo a claude code y que el me aga todo pero que tenga mucho cuidado de no romper nada ni quietar nada, la aplicacion con toda las funcionalidades que tiene tanto para windows como android. confirma que archivos necesita, solo el CentrixMobile.html  ??se tendra que ver a pantalla completa , no como una pagina web
+
+
+
+te añado para procedimientos uno nuevo Procedimiento cambio Filtros Armarios GPON, añadelo a lo que ya tienes y tanto este Procedimiento cambio Filtros Armarios GPON como este tienen fotos que son todas importante ver, asi que a ver como lo haces, igual era bueno poner los dos pdf completos intactos o como veas que quede claro
+añade a la ayuda de uso de la app todo lo nuevo no te olvides de nada, acuerdate de la cuenta google drive tambien
+los informes html y pdf estan actualizados y completamente funcionales ??
+
+confirmame que en historico saldran todos los preventivos que tenga, tanto de la carpeta por defecto como de cualquiera que le de.
+ademas en historico esta bien lo de la vista tarjetas, pero deberiamos tener la opcion de una vista  detalle, en fila me entiendes? ademas, voe las opciones de ver todo,continuar , borrar, pero no la de modificar el preventivo completo
+
+
+
+- 

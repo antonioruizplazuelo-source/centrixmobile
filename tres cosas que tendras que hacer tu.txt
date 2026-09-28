@@ -1,0 +1,5 @@
+Tres cosas que tendrás que hacer tú:
+
+Pasar tus datos: las apps instaladas no ven lo que ya tienes en el navegador. Crea una copia de seguridad en el navegador y restáurala en cada app con «Combinar».
+Google Drive: en Google Cloud hay que añadir la dirección http://localhost:47831 para Windows y crear un ID de cliente de Android.
+Aviso de Windows: sin un certificado de firma, Windows mostrará un aviso al instalar el .exe la primera vez.

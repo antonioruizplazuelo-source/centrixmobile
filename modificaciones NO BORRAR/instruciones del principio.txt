@@ -1,0 +1,176 @@
+te creo de nuevo carpeta modificaciones y no la borres, te dejo la carpeta ayuda con notas y documentos que creara una ayuda con los que pone y procedimientos
+te dejo el excel con los nodos para que cruces datos para obtener todo
+te dejo tambien un html centrixmobile, solo a modo de referencia ya que la que quiero crear ahora es bastante mas editable y dinamica, te dejo tambien fotos de la aplicacion real y de otras aplicaciones que me gusta el diseño, con lupa buscador dinamico, modo claro ,oscuro, firma, exportados, etc. solo es a modo de referencia.
+te paso ahora las instruciones que pude encontar cuando empezamos a realizarla, lo que no tenogo es el excel de las modificaciones, asi que vamos un poco a ciegas.
+se me ocurre tambien que todo esto que creaste ahora , aunque no funcione, deberia ser como queria que fuese la aplicacion, asi que a lo mejor tambien te vale para llegar a buen puerto, intenta separar de alguna forma todo esto que creaste que no vale , moverlo a alguna carpeta para que puedas consultar como queria la aplicacion y asi tener la carpeta lo mas limpia posible para empezar de nuevo
+estas eran las instruciones del principio
+
+necesito crear una app para movil android , son preventivos de energia,extintores,clima,etc
+cada campo puede cambiar en un futuro, con lo que tendran que ser editables,configurables, poder añadir o borrar o editar,etc
+poder añadir ayudas,comentarios en cualquier campo 
+poder añadir cuentas de google para poder guardar cosas en drives, se podran añadir o borrar
+todo el texto de la app ,de cualquier sitio tiene que se editable para poder copiar y pegar
+las fotos que se suben a cada preventivo, se tienen que poder compartir por telegram  como minimo, se podran sacar con la propia camara del movil o de la galeria del movil
+me tiene que indicar donde esta guardando los preventivos y poder modificar ruta
+
+no estas cruzando los datos del excel nodos y la ruta de carpeta preventivo tampoco se ve bien
+al crear un preventivo nuevo , la estructura de la carpeta sera de esta forma, si por ejemplo creamosnuevo y pongo AC01211  , tu cruzando datos del excel nodos , crearas una carpeta de esta forma:
+AC01211 MARQUES DE AMBOAGE-CX7199-MM3453 ( el nombre de la calle solo enl nombre no que queremos nuemos o simbolos raros  y en algun sitio de la app pondras el viculo de maps, dentro de esa carpeta con el tiempo tendremos mas de un preventivo para ese nodo, asi que dentor de esa carpeta iras creando carpetas de la forma secuencial 01 fecha preventivo   ,  02 fecha preventivo  , etc, tambien se tendra que ver el tipode ubicacion y municipio
+
+te subo imagenes de como me gustaria que fuera el tema y la forma de la app si se puede, tiene que ser elegante y moderna, poder cambiar de color mediante boton tema, azules, amarillos,verdes,rojos,moredos,etc
+
+debera incluir una discreta firma mi A.Ruiz , el modo oscuro-claro con boton luna -sol animado, buscador interactivo que va mostrando resultados segun se escribe de cualquier cosa que tengamos.  en una ventana-poput elegante y moderna, se podra exportar a pdf o html y en todos los sitios podremos poder selecionar texto para copiar y pegar donde quiera
+
+no se si pyton o en html que sera mejor y si hacerla primero funcional en pc windows y despues crearla para android movil, que sera mejor??
+
+1 datos generales pongo nodo y tienes que cruzar datos con la excel que te paso de nodos, y completar las tres nomenclaturas de los nodos empezando por el de krt  - cx - mm  y direccion -provincia-municipio - tipo ubicacion y vinculo google maps
+
+2 en equipos podre selecionar entre este listado teniendo que rellenar para cada uno de ellos marca,modelo,fecha instalacion. teniendo en cuanta que puede haber mas de un mismo equipo en el mismo nodo, deberas quedarte como con un historial, para que la proxima vez que empieze a escribir cualquier campo, me des a escoger como si fuera un autorelleno ( esto en todos los campos, formularios de ala app ) y siempre poder editar,borrar o añadir equipos
+
+PCI Extintores
+cuadro electrico
+equipos de fuerza
+string
+aire acondicionado
+acceso
+llaves del site
+
+
+
+Añadir la antiguedad de las baterias (fecha), si no hay indicar la fecha 01-01-1900
+timbrado extintor 5 años
+vida util extentitor 20 años
+señalizacion - detectores 10 años
+
+
+en toda la aplicacion , en cualquier sitio campo, o lo que sea , eltexto tiene que ser selecionable para poder copiar y pegar
+
+en cada una de las seciones, por equipo o tipo deprueba/resultado tendra un campo de observaciones para texto largo autoajustable al contenido y con salto de linea
+
+campo 0 si - no ( pues eso elegir entre si o no )
+campo1 test  ok  no  ok   n/a  corregido ( con iconos detallados, si pongo no ok o corregido debera mostrarme un campo para poner una breve descripcion del problema con salto de linea y que se ajuste al contenido)
+
+campo2 fecha dia/mes/año  difuminado para saber donde poner dia mes y año y tambien por calendario
+campo3 fecha mes/año  difuminado para saber donde poner mes y año y tambien por calendario
+campo4 fecha año  difuminado para saber donde poner año y tambien por calendario
+
+campo5 con lista desplegable editable desde configuración, si no encuentro lo que quiero poder escribir lo que necesite
+
+campo6 numero 
+
+campo7 texto largo ( pues eso un campo donde pueda escribir el texto que yo quiera, con salto de linea y que se ajuste al contenido)
+
+
+
+ahora te desgloso uno por uno los campos de cada uno
+PCI BJ EXTINTORES: OK - No OK  - N/A
+			MARCADO CE
+			ETIQUETA REVISION
+			EXTINTORES EN SU LUGAR Y SIN DAÑOS
+			EXTINTORES MAS 3K TIENEN MANGUERA
+			SEÑALIZACION VISIBLE
+			PRESION CORRECTA (EXCEPTP CO2 Y PRESION ADOSADA)
+			PRECINTOS
+			ANCLADOS ALTURA (1,60 PARTE SUPERIOR EXTINTOR)
+			ESTAN TIMBRADOS
+			ETIQUETA REVISION
+			FECHA TRIMBRADO INFERIOR A 5 AÑOS VALOR MES/AÑO
+			FECHA ANTIGUEDAD INFERIOR A 20 AÑOS VALOR AÑO
+			TIPO DE EXTINTOR VALOR
+			FECHA ULTIMA REVISION LA ACTUAL VALOR DIA/MES/AÑO
+			CAPACIDAD KILOS
+			PRESION
+
+PCI BJ DETECTORES: 
+			MARCADO CE
+			SE ENCUENTRAN FUERA INFLUENCIA CORRIENTES,ETC
+			ESPACIO LIBRE ALREDEDOR DETECTORES
+			ESTADO VISUAL DETECTORES
+			ANTIGUEDAD SUPERIOR A 10 AÑOS
+			SI SE REEMPLAZA INDICAR CANTIDAD VALOR
+
+PCI BJ EQUIPOS DE FUERZA:
+			TENSION DE SALIDA VALOR
+			NUMEROS DE RECTIFICADORES  	INSTALADOS  VALOR
+							AVERIADOS   VALOR
+							POTENCIA    VALOR
+			CAPACIDAD BATERIAS AMPERIO POR HORA (AH) VALOR
+			CONSUMO  	CONSUMO EQUIPO ENERGIA VALOR
+			NUMERO DE STRING     	INSTALADOS VALOR
+						NUMERO BATERIAS POR STRING VALOR
+			APARIENCIA FISICA VISUAL
+			MARCA Y MODELO BATERIAS FECHA ANTIGUEDAD, SI NO TIENE PONER 1900-01-01
+
+PCI BJ STRING		BATERIAS CONDUCTANCIA		TENSION VALOR
+							VALOR MANUFACTURACION VALOR
+							CONDUCTANCIA VALOR
+							RATION  ( C ) VALOR
+							IDENTIFICACION Y ROTULACION CODIGO NODO
+
+PCI BJ CUADRO ELECTRICO	ESTADO PROTECCIONES Y DESCARGADOR TIERRA
+			REARMABLE
+			CALIBRE INTERRUPTOR GENERAL E ICP VALOR	
+			MEDIDAS		INTENSIDAD FASE VALOR
+					FASE-NEUTRO (V) VALOR
+					NEUTRO-TIERRA (V) VALOR
+					CALIBRE INTERRUPTOR GENERAL CUADRO E ICP (A) VALOR
+					SEÑALIZACION RIESGO ELECTRICO
+					ESTADO VISUAL
+					
+
+PCI BJ  ALUMBRADO	INTERRUPTORES
+			LUMINARIAS
+			LUZ EMERGENCIA		
+	
+PCI BJ AIRE ACONDICIONADO	MARCA
+				MODELO
+				COMENTARIOS
+PCI BJ SISTEMA DE CLIMA ENFRIADORA		MARCA
+						MODELO
+						COMENTARIOS
+COMPROBAR TIERRAS, FOTOS
+
+
+
+++ LAS FOTOS QUE SE HACEN DIJAMOS QUE VAN POR CATEGORIA:
+no se como , pero yo saco la foto o las fotos y se tienen que poder renombrar po cada una de esta categoria
+AIRE ACONDICIONADO
+CUADRO ELECTRICO
+EQUIPOS DE FUERZA
+PCI EXTINTORES
+STRING
+
+en equipos , me falto indicarte uno, te paso completo
+PCI Extintores
+cuadro electrico
+equipos de fuerza
+string
+aire acondicionado
+acceso
+llaves del site
+
+estoy rellenando equipos, pero no se donde esta guardando si que es guarda algo. y que pasa si cierro la app , reinicio el ordenador, voy a poder recuperar ese preventivo y poder continuar? y otros que ya tenga completados?, los podre ver tambien y editar si veo algo mal o borrar alo??
+en los campo fecha si escribo manualmente al poner dia mes o lo que sea , que salte al siguient campo, me refiero si pongo 02 que salte al año para escribir directamente
+en pci extintores el campo kilos por defecto 5 y tipo de extintor desplegable CO2 selecionable o poder poner el que yo quiera lo recuerde ,guarde en ese desplegable, esto deberia ser con todos los campos que tengan desplegables, si escribo uno nuevo lo debera guardar para futuros preventivos nuevos. 
+en pci extintores faltan campos:
+señal salida menos 10 años ok , no ok ,n/a, corregido, descripcion del trabajo realizado
+señal extintores menos 10 años ok , no ok ,n/a, corregido, descripcion del trabajo realizado
+en todos los campos tipo ok , no  ok, n/a debera haber otro de Corregido y dejar poner una descripcion del trabajo realizado tanto para ok , no ok , n/a o corregido
+luminaria emergencia ok , no ok ,n/a, corregido, descripcion del trabajo realizado
+luminarias local  ok , no ok ,n/a, corregido, descripcion del trabajo realizado
+en extintores fecha timbrado indicar menos de 5 años
+no veo el campo fecha fabricacion indicar menos de 20 años
+en equipos fuerza-string, falta campo consumo, estado equipo fuerza , estado baterias, numero de baterias por string, baterias con nombre nodo. en el campo potencia w rectificadores desplegable inteligente 680 w, 1000w,etc y que recuerde nuevos  valores. falta amperios por hora de las baterias que sera desplegable inteligente tambien 1500 y campo ratio ( C ) desplegable inteligente 10  
+en cuadro electrico  faltan campos 
+CALIBRES PROTECCIONES RECTIFICADORES.
+CALIBRE INTERRUPTOR GENERAL  (A)
+CALIBRE ICP (SI LO HUBIERA)  (A)
+CALIBRE SI SUMISTRA TERCERO (A)
+CALIBRE INTERRUPTOR GENERAL CUADRO E ICP (A)
+CUADRO ELECTRICO SEÑALIZACION RIESGO ELECTRICO
+AUTOMATICO GENERAL REARMABLE (SI / NO) y CALIBRE INTERRUPTOR GENERAL CUADRO E ICP 
+
+estado general cuadro
+
+
+cuando voy agregando equipos , no veo los que he creado, por si quiero modifica o borrar, ademas al agregar equipos no se borran los campos y quedan rellenados con lo ultimo, eso no me gusta

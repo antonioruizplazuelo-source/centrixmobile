@@ -1,0 +1,12 @@
+modificaciones:
+1 en la version pro en android tanto la completa como la light, no tenemos pestaña para poder selecionar operadora y ver sus fibras ( sale todas las fibras corridas es dificil identificar ) te subo foto. aclaracion si en crhome seleciono ver como escritorio si que sale, asi que cuidado realmente si esta la opcion , pero seria bueno que en vista movil las versiones pro completa y light se corriga, el resto no tocar nada ni rompas nada.
+
+2 te subo otra foto "etiqueta label en tubos", se ve que a la derecha del color del tubo pone interior, en otros exterior y en otros nada. eso no veo la opcion cuando añado, o quiero modificar colores. en lores de tubo no veo como cambiar ese texto, creo que no esta implementado en la app, en la excel sive etqueta label,pero en la app no me deja modificar o poner esa label. esto modificalo para todas las verisone pro, completas y light, en todas , pero cuidado de no cambiar nada mas no rompas nada
+
+3 creo que teniamos que la app recordaba el ultimo diseño elegido movil o pro  cuando ejecuto index pero parece aberlo perdido, verica esto y si no esta modificalo
+
+4 las versiones ligth de un solo archivo, ¿no se pueden instalar en android o crhome ? si se pude modificalo , pero cuidado de no cambiar na mas , no rompas nada
+
+5 cuando instalo la app en android queda con un icono muy soso una F con fondo negro, puedes poner otro mas representativo de una app de codigos de colores de fibra optica, y añade en la guia , manual como poder cambiar este icono por si quiero que salga otro distinto , donde lo guardo?, en que formato y tamaño y como realizo eso, ¿tendre que cambiar alguna linea del codigo? y si es asi explica paso a paso como hacerlo en la guia o manual
+
+6 si cambias version, que quede reflegado en todas las versiones que tenemos y actualiza guias, advertencias y manual doc ( que entiendo lo que lo añades cuando me envias la carpeta zip completa.

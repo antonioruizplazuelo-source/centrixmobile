@@ -1,0 +1,11 @@
+{
+  "appId": "com.aruiz.codigofibras",
+  "appName": "Código Fibras",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Código Fibras",
+  "short_name": "Fibras",
+  "description": "Catálogo de códigos de colores de fibra óptica",
+  "id": "/codigo-fibras",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#15171a",
+  "theme_color": "#15171a",
+  "lang": "es",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Móvil",
+      "short_name": "Móvil",
+      "url": "./fiber-mobile.html",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Pro (PC)",
+      "short_name": "Pro",
+      "url": "./fiber-pro.html",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

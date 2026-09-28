@@ -1,0 +1,13 @@
+Te explico lo del servidor HTTP en Cx Explorador, paso a paso:
+
+Abre Cx Explorador de Archivos en el móvil.
+Navega hasta la carpeta codigo-fibras que has copiado.
+Mantén el dedo pulsado sobre la carpeta hasta que se seleccione (sale un check).
+Arriba o abajo (según versión), pulsa el botón de menú (⋮ o ☰).
+Busca la opción "Servidor HTTP" o "Server HTTP" (a veces está en Más opciones) y pulsa Iniciar.
+Cx te mostrará una URL tipo http://192.168.1.45:8080/codigo-fibras/
+Copia esa URL y ábrela en Chrome.
+Verás index.html y los demás archivos como una página web. Pulsa index.html (o directamente fiber-mobile.html).
+⚠️ Mientras estés probando, el servidor de Cx tiene que estar activo (verás una notificación). Una vez instales la app con el botón "📲 Instalar como app", ya no lo necesitas — la app queda guardada en el móvil.
+
+Si no encuentras "Servidor HTTP" en Cx, dime qué versión tienes y te busco la opción exacta.

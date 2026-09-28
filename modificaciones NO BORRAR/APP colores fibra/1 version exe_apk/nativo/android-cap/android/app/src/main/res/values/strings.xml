@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Código Fibras</string>
+    <string name="title_activity_main">Código Fibras</string>
+    <string name="package_name">com.aruiz.codigofibras</string>
+    <string name="custom_url_scheme">com.aruiz.codigofibras</string>
+</resources>

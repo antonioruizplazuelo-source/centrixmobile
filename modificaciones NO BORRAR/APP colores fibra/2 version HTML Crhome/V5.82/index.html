@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
+<link rel="apple-touch-icon" href="icon-192.png" />
+<meta name="theme-color" content="#15171a" />
+<title>Código Fibras — Elegir diseño</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@500;600&family=Geist:wght@400;500;600;700&family=Rubik:ital,wght@0,600;0,700;1,700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #0d1117;
+    --ink: #f0eee6;
+    --ink-2: #aab2bd;
+    --ink-3: #6f7986;
+    --line: #1f2630;
+    --orange: #ff7a1a;
+    --green: #4ade80;
+    --blue: #2563eb;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); }
+  body {
+    font-family: 'Geist', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100dvh;
+    background:
+      radial-gradient(800px 600px at 20% 0%, rgba(255,122,26,.08), transparent 60%),
+      radial-gradient(900px 700px at 110% 100%, rgba(37,99,235,.08), transparent 60%),
+      var(--bg);
+  }
+  .wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 24px;
+  }
+  .header {
+    display: flex; align-items: center; gap: 14px;
+    margin-bottom: 14px;
+  }
+  .mark {
+    width: 56px; height: 56px;
+    border-radius: 14px;
+    background: var(--ink); color: var(--bg);
+    display: grid; place-items: center;
+    font-family: 'Geist Mono', monospace;
+    font-weight: 600; font-size: 28px;
+    letter-spacing: -.04em;
+  }
+  .header h1 {
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: -.02em;
+    font-weight: 700;
+  }
+  .header .sub {
+    margin: 4px 0 0;
+    color: var(--ink-3);
+    font-size: 14px;
+  }
+  .intro {
+    color: var(--ink-2);
+    font-size: 16px;
+    max-width: 580px;
+    line-height: 1.55;
+    margin-bottom: 40px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  @media (max-width: 760px) {
+    .grid { grid-template-columns: 1fr; }
+    .wrap { padding: 48px 16px; }
+    .header h1 { font-size: 24px; }
+  }
+  .card {
+    background: #131820;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+    transition: transform .14s ease, border .14s ease, box-shadow .14s ease;
+    display: flex; flex-direction: column;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    border-color: #2c3540;
+    box-shadow: 0 18px 36px -16px rgba(0,0,0,.6);
+  }
+  .preview {
+    aspect-ratio: 16 / 9;
+    border-bottom: 1px solid var(--line);
+    position: relative;
+    overflow: hidden;
+  }
+  .card-body { padding: 18px 22px 22px; }
+  .card-body h2 { margin: 0 0 4px; font-size: 18px; font-weight: 600; letter-spacing: -.01em; }
+  .card-body .tagline { color: var(--ink-3); font-size: 13px; }
+  .card-meta {
+    display: flex; gap: 8px; flex-wrap: wrap;
+    margin-top: 14px;
+  }
+  .tag {
+    font-family: 'Geist Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-2);
+    padding: 3px 8px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+  }
+
+  /* --- Preview A (Pro): light, sidebar + tube cards --- */
+  .pv-pro {
+    background: #f6f5f1;
+    color: #15171a;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    font-family: 'Geist', sans-serif;
+  }
+  .pv-pro .ps {
+    background: #fff;
+    border-right: 1px solid #d9d8d2;
+    padding: 10px 8px;
+    display: flex; flex-direction: column; gap: 4px;
+  }
+  .pv-pro .pli { height: 14px; background: #ecebe5; border-radius: 4px; }
+  .pv-pro .pli.act { background: #15171a; }
+  .pv-pro .pm { padding: 12px 14px; }
+  .pv-pro .pm h3 { margin: 0; font-size: 12px; font-weight: 700; }
+  .pv-pro .pm .pmeta { font-size: 8px; color: #8b9099; font-family: 'Geist Mono', monospace; margin-top: 2px;}
+  .pv-pro .ptube { background: #fff; border: 1px solid #d9d8d2; border-radius: 6px; padding: 6px 8px; margin-top: 6px; }
+  .pv-pro .ptube .phead { display: flex; align-items: center; gap: 6px; font-size: 9px; }
+  .pv-pro .ptube .pdot { width: 10px; height: 10px; border-radius: 50%; }
+  .pv-pro .ptube .pgrid { display: grid; grid-template-columns: repeat(8, 1fr); gap: 3px; margin-top: 4px; }
+  .pv-pro .ptube .pfib { aspect-ratio: 1 / 2.2; border-radius: 2px; }
+
+  /* --- Preview Mobile --- */
+  .pv-mobile {
+    background: #f6f5f1;
+    display: flex; justify-content: center;
+    padding: 14px 0;
+  }
+  .pv-mobile .phone {
+    background: #15171a;
+    padding: 6px;
+    border-radius: 24px;
+    width: 62%;
+    aspect-ratio: 9 / 18;
+    box-shadow: 0 8px 22px rgba(0,0,0,.18);
+  }
+  .pv-mobile .screen {
+    background: #f6f5f1;
+    border-radius: 18px;
+    width: 100%; height: 100%;
+    overflow: hidden;
+    display: flex; flex-direction: column;
+    color: #15171a;
+    font-family: 'Geist', sans-serif;
+  }
+  .pv-mobile .sh {
+    height: 18px;
+    border-bottom: 1px solid #d9d8d2;
+    display: flex; align-items: center; padding: 0 8px;
+    font-size: 7px; font-weight: 600;
+  }
+  .pv-mobile .sc { flex: 1; overflow: hidden; padding: 6px 6px 0; }
+  .pv-mobile .op-h {
+    font-size: 6px; color: #8b9099; text-transform: uppercase; letter-spacing: .1em;
+    font-weight: 700; padding: 4px 4px 2px;
+  }
+  .pv-mobile .ci {
+    background: #fff; border-radius: 4px;
+    padding: 4px 5px;
+    display: flex; align-items: center; gap: 4px;
+    margin-bottom: 2px;
+  }
+  .pv-mobile .ci.act { border-left: 2px solid #15171a; padding-left: 3px; }
+  .pv-mobile .ci .dots { display: flex; gap: 1px; }
+  .pv-mobile .ci .dot { width: 4px; height: 4px; border-radius: 50%; box-shadow: inset 0 0 0 .5px rgba(0,0,0,.2); }
+  .pv-mobile .ci .nm { font-size: 6px; font-weight: 500; flex: 1; overflow: hidden; }
+  .pv-mobile .tb {
+    height: 22px;
+    border-top: 1px solid #d9d8d2;
+    display: grid; grid-template-columns: repeat(4, 1fr);
+  }
+  .pv-mobile .tb .ti {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    font-size: 5px; color: #8b9099; gap: 1px;
+    position: relative;
+  }
+  .pv-mobile .tb .ti.act { color: #15171a; font-weight: 700; }
+  .pv-mobile .tb .ti.act::before {
+    content: ''; position: absolute; top: 0; width: 14px; height: 2px; background: #15171a; border-radius: 0 0 2px 2px;
+  }
+  .pv-mobile .tb .ic { width: 8px; height: 8px; background: currentColor; border-radius: 1px; opacity: .5; }
+  .pv-mobile .tb .ti.act .ic { opacity: 1; }
+
+  /* --- Preview B (Master): dark + colorful --- */
+  .pv-fm {
+    background: #0f1419;
+    display: grid; grid-template-columns: 100px 1fr;
+    font-family: 'Rubik', sans-serif;
+    color: #e6e9ee;
+  }
+  .pv-fm .ps {
+    background: #0f1419;
+    border-right: 1px solid #2a3340;
+    padding: 8px;
+    display: flex; flex-direction: column; gap: 5px;
+  }
+  .pv-fm .brand { color: #ff7a1a; font-weight: 700; font-style: italic; font-size: 11px; }
+  .pv-fm .pbtn { height: 14px; border-radius: 3px; }
+  .pv-fm .pbtn.o { background: #ff7a1a; }
+  .pv-fm .pbtn.b { background: #2563eb; }
+  .pv-fm .pbtn.g { background: #16a34a; }
+  .pv-fm .pbtn.k { background: #20272f; border: 1px solid #2a3340; }
+  .pv-fm .pm { padding: 10px 12px; }
+  .pv-fm .pm h3 { margin: 0; font-size: 14px; font-weight: 600; }
+  .pv-fm .pm .pmeta {
+    font-size: 8px; color: #6f7986; letter-spacing: .1em;
+    text-transform: uppercase; margin-top: 1px;
+  }
+  .pv-fm .ptube { background: #1a212b; border: 1px solid #2a3340; border-radius: 5px; padding: 6px 8px; margin-top: 5px; }
+  .pv-fm .ptube .phead {
+    display: flex; align-items: center; gap: 5px;
+    font-size: 8px; font-style: italic; text-transform: uppercase;
+    color: #aab2bd; letter-spacing: .1em;
+  }
+  .pv-fm .ptube .pdot { width: 9px; height: 9px; border-radius: 50%; }
+  .pv-fm .ptube .pcolor { color: #ff7a1a; }
+  .pv-fm .ptube .pgrid {
+    display: grid; grid-template-columns: repeat(8, 1fr); gap: 3px; margin-top: 4px;
+  }
+  .pv-fm .ptube .pcell {
+    background: #20272f; border-radius: 3px;
+    padding: 4px 0;
+    display: grid; place-items: center;
+  }
+  .pv-fm .ptube .pfib { width: 4px; height: 14px; border-radius: 2px; }
+
+  .footer {
+    margin-top: 48px;
+    color: var(--ink-3);
+    font-size: 13px;
+    line-height: 1.55;
+    max-width: 580px;
+  }
+  .footer code {
+    background: #1a212b;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: var(--ink);
+    font-family: 'Geist Mono', monospace;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header" style="position:relative;">
+    <div class="mark">F</div>
+    <div>
+      <h1>Código Fibras</h1>
+      <div class="sub">Catálogo de códigos de colores de fibra óptica · móvil + portátil</div>
+    </div>
+<!-- === INICIO FIRMA A.RUIZ === -->
+
+
+<div class="firma-aruiz">
+  <svg viewBox="0 0 160 60" width="100%" height="100%" preserveAspectRatio="none" style="position:absolute;top:0;left:0;">
+  <defs>
+    <filter id="metal-relieve" x="-20%" y="-20%" width="150%" height="150%">
+      <feOffset dx="1.2" dy="1.2" result="off"></feOffset>
+      <feGaussianBlur in="off" stdDeviation="1.1" result="blur"></feGaussianBlur>
+      <feBlend in="SourceGraphic" in2="blur" mode="normal"></feBlend>
+    </filter>
+
+    <linearGradient id="plata-vieja" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e5e7eb"></stop>
+      <stop offset="40%" stop-color="#cbd5e1"></stop>
+      <stop offset="70%" stop-color="#94a3b8"></stop>
+      <stop offset="100%" stop-color="#64748b"></stop>
+    </linearGradient>
+
+    <linearGradient id="pluma-metal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#cbd5e1"></stop>
+      <stop offset="40%" stop-color="#94a3b8"></stop>
+      <stop offset="80%" stop-color="#e2e8f0"></stop>
+      <stop offset="100%" stop-color="#64748b"></stop>
+    </linearGradient>
+  </defs>
+
+  <text x="18" y="32" filter="url(#metal-relieve)" style="font-family:Georgia;font-size:30px;font-weight:900;font-style:italic;
+               fill:url(#plata-vieja);stroke:#1e293b;stroke-width:0.7px;">
+    A. Ruiz
+  </text>
+
+  <g transform="translate(15, 40) rotate(-4)" filter="url(#metal-relieve)">
+    <path d="M 5,8 Q 50,8 135,5" fill="none" stroke="url(#plata-vieja)" stroke-width="2.2" stroke-linecap="round"></path>
+
+    <path d="M 135,5 C 125,1 105,-6 80,-4 C 60,-2 50,5 40,5 C 50,9 60,11 80,10 C 100,9 125,8 135,5 Z" fill="url(#pluma-metal)" stroke="#334155" stroke-width="0.6" opacity="0.9"></path>
+
+    <path d="M 35,5 L 140,5" fill="none" stroke="#0f172a" stroke-width="0.8" opacity="0.7"></path>
+  </g>
+</svg>
+</div>
+
+<style>
+.firma-aruiz {
+  width: 141px;
+  height: 43px;
+  border-radius: 12px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  background: linear-gradient(rgba(60, 80, 110, 0.22), rgba(45, 65, 95, 0.24));
+  border: 1.66806px solid rgba(120, 140, 160, 0.3);
+  box-shadow: rgba(255, 255, 255, 0.3) 0px 2px 12px 0px inset, rgba(0, 0, 0, 0.28) 0px -2px 10px 0px inset, rgba(0, 0, 0, 0.45) 0px 3px 8px 0px;
+}
+
+/* Modo claro/oscuro integrado con tu app */
+html[data-theme="light"] .firma-aruiz {
+  background: linear-gradient(rgba(60, 80, 110, 0.22), rgba(45, 65, 95, 0.24));
+}
+
+html[data-theme="dark"] .firma-aruiz {
+  /* Aquí puedes ajustar otro fondo si quieres que cambie en oscuro */
+  background: linear-gradient(rgba(60, 80, 110, 0.22), rgba(45, 65, 95, 0.24));
+}
+</style>
+
+
+<!-- === FIN FIRMA A.RUIZ === -->
+  </div>
+
+  <p class="intro">
+    Dos diseños sobre la misma base de datos local. Cambia, edita, borra o añade cables — todo se guarda en el navegador. Backup y restauración por archivo JSON.
+  </p>
+
+  <div class="grid">
+    <a class="card" href="fiber-mobile.html" onclick="pickVersion('mobile', event)">
+      <div class="preview pv-mobile">
+        <div class="phone">
+          <div class="screen">
+            <div class="sh">Mis cables</div>
+            <div class="sc">
+              <div class="op-h">R Cable</div>
+              <div class="ci act">
+                <div class="dots">
+                  <span class="dot" style="background:#F5F5F5"></span>
+                  <span class="dot" style="background:#E63946"></span>
+                  <span class="dot" style="background:#1D6FE0"></span>
+                  <span class="dot" style="background:#1FA959"></span>
+                </div>
+                <span class="nm">128 F.O. 16×8</span>
+              </div>
+              <div class="ci">
+                <div class="dots">
+                  <span class="dot" style="background:#F5F5F5"></span>
+                  <span class="dot" style="background:#E63946"></span>
+                  <span class="dot" style="background:#1D6FE0"></span>
+                  <span class="dot" style="background:#1FA959"></span>
+                </div>
+                <span class="nm">64 F.O. 8×8</span>
+              </div>
+              <div class="ci">
+                <div class="dots">
+                  <span class="dot" style="background:#F5F5F5"></span>
+                  <span class="dot" style="background:#E63946"></span>
+                  <span class="dot" style="background:#1D6FE0"></span>
+                  <span class="dot" style="background:#1FA959"></span>
+                </div>
+                <span class="nm">32 F.O. 4×8</span>
+              </div>
+              <div class="op-h" style="margin-top:4px;">Movistar</div>
+              <div class="ci">
+                <div class="dots">
+                  <span class="dot" style="background:#1D6FE0"></span>
+                  <span class="dot" style="background:#FF7A1A"></span>
+                </div>
+                <span class="nm">Acometida 12F</span>
+              </div>
+            </div>
+            <div class="tb">
+              <div class="ti act"><span class="ic"></span>Lista</div>
+              <div class="ti"><span class="ic"></span>Cable</div>
+              <div class="ti"><span class="ic"></span>Info</div>
+              <div class="ti"><span class="ic"></span>Más</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <h2>Móvil</h2>
+        <div class="tagline">Pensado para el pulgar. Bottom tabs, bottom sheets, FAB. Misma funcionalidad que Pro.</div>
+        <div class="card-meta">
+          <span class="tag">Mobile-only</span>
+          <span class="tag">Tabs inferiores</span>
+          <span class="tag">Sheets</span>
+          <span class="tag">FAB</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="card" href="fiber-pro.html" onclick="pickVersion('pro', event)">
+      <div class="preview pv-pro">
+        <div class="ps">
+          <div class="pli act"></div>
+          <div class="pli"></div>
+          <div class="pli"></div>
+          <div class="pli"></div>
+          <div class="pli"></div>
+        </div>
+        <div class="pm">
+          <h3>64 F.O. — 8 tubos × 8 fibras</h3>
+          <div class="pmeta">8 TUBOS · 64 FIBRAS</div>
+          <div class="ptube">
+            <div class="phead">
+              <span class="pdot" style="background:#F5F5F5; box-shadow: inset 0 0 0 1px #aaa;"></span>
+              <span><b>T1</b> · BLANCO</span>
+            </div>
+            <div class="pgrid">
+              <div class="pfib" style="background:#E63946"></div>
+              <div class="pfib" style="background:#1D6FE0"></div>
+              <div class="pfib" style="background:#1FA959"></div>
+              <div class="pfib" style="background:#F5C518"></div>
+              <div class="pfib" style="background:#7C3AED"></div>
+              <div class="pfib" style="background:#F5F5F5; box-shadow: inset 0 0 0 1px #ccc;"></div>
+              <div class="pfib" style="background:#FF7A1A"></div>
+              <div class="pfib" style="background:#7a8693"></div>
+            </div>
+          </div>
+          <div class="ptube">
+            <div class="phead">
+              <span class="pdot" style="background:#E63946"></span>
+              <span><b>T2</b> · ROJO</span>
+            </div>
+            <div class="pgrid">
+              <div class="pfib" style="background:#E63946"></div>
+              <div class="pfib" style="background:#1D6FE0"></div>
+              <div class="pfib" style="background:#1FA959"></div>
+              <div class="pfib" style="background:#F5C518"></div>
+              <div class="pfib" style="background:#7C3AED"></div>
+              <div class="pfib" style="background:#F5F5F5; box-shadow: inset 0 0 0 1px #ccc;"></div>
+              <div class="pfib" style="background:#FF7A1A"></div>
+              <div class="pfib" style="background:#7a8693"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <h2>Diseño A · Pro</h2>
+        <div class="tagline">Limpio y moderno. Sidebar con filtro por operadora, búsqueda por nº de fibra, tema claro por defecto.</div>
+        <div class="card-meta">
+          <span class="tag">Mobile-first</span>
+          <span class="tag">Filtros</span>
+          <span class="tag">Buscar fibra</span>
+          <span class="tag">Editar in-line</span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="footer">
+    Ambos diseños comparten la misma base de datos. Los cambios que hagas en uno se ven al instante en el otro. Los cables se guardan en <code>localStorage</code> — usa <b>Backup</b> antes de borrar la caché del navegador.<br/><br/>
+    <b>📲 Instalar como app:</b> sirve esta carpeta con un servidor HTTP (en móvil: Cx Explorador → "Servidor HTTP"). Abre la URL en Chrome y dale al icono "Instalar" o al menú ⋮ → "Añadir a la pantalla de inicio". Se instalará como una app más.<br/><br/>
+    <b>🗂️ Datos de fábrica:</b> al arrancar por primera vez la app lee <code>assets/factory-backup.json</code>. Si quieres tu propio juego de cables/fotos, reemplaza ese archivo (estructura: <code>{cables, reference, galleryCustom}</code>).
+  </div>
+</div>
+<script>
+// Auto-redirect to last-chosen version if any
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
+const remembered = localStorage.getItem('codigoFibras.preferredVersion');
+const params = new URLSearchParams(location.search);
+if (remembered && !params.has('choose')) {
+  location.replace(remembered === 'pro' ? 'fiber-pro.html' : 'fiber-mobile.html');
+}
+function pickVersion(v, ev) {
+  if (ev) ev.preventDefault();
+  localStorage.setItem('codigoFibras.preferredVersion', v);
+  location.href = v === 'pro' ? 'fiber-pro.html' : 'fiber-mobile.html';
+}
+</script>
+</body>
+</html>

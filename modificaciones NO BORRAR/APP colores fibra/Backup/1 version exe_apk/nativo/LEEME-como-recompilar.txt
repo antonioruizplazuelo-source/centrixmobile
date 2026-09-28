@@ -1,0 +1,54 @@
+CÓDIGO FIBRAS — CÓMO RECOMPILAR (guía rápida)
+=============================================
+
+Se han borrado las carpetas "node_modules" y las de compilación (dist / build)
+para dejar todo limpio. NO pasa nada: se regeneran solos al recompilar.
+Los ejecutables válidos ya están en la carpeta raíz:
+  ..\CodigoFibras-setup.exe      (PC Windows)
+  ..\CodigoFibras-android.apk    (Android)
+
+
+FUENTE DE LA APP (lo que se edita para cambiar algo)
+----------------------------------------------------
+Carpeta compartida:  nativo\www\
+  - index.html         -> el selector (Pro / Móvil)
+  - fiber-pro.html     -> versión Pro
+  - fiber-mobile.html  -> versión Móvil
+  - cf-enhance.js      -> mejoras propias (zoom, botón atrás, diálogo salir)
+  - assets\ , vendor\ , iconos, manifest...
+
+Tras editar nativo\www, copia los ficheros cambiados a las dos copias de trabajo:
+  nativo\pc-electron\www\
+  nativo\android-cap\www\
+
+
+RECOMPILAR PC (.exe)   — requiere: Node.js
+----------------------------------------
+  cd nativo\pc-electron
+  npm install
+  npm run dist
+  -> queda en:  dist\CodigoFibras-5.82.0-setup.exe
+  -> copiar a la raíz como  CodigoFibras-setup.exe
+  Fuente nativa: main.js  (protocolo app://, User-Agent ASCII, limpieza de service worker)
+
+
+RECOMPILAR ANDROID (.apk)  — requiere: Node.js + JDK 21 + Android SDK
+--------------------------------------------------------------------
+  set JAVA_HOME=C:\Program Files\Android\Android Studio\jbr
+  set ANDROID_HOME=C:\Users\anton\AppData\Local\Android\Sdk
+  cd nativo\android-cap
+  npm install
+  npx cap sync android
+  cd android
+  gradlew :app:assembleDebug --no-daemon
+  -> queda en:  app\build\outputs\apk\debug\app-debug.apk
+  -> copiar a la raíz como  CodigoFibras-android.apk
+  Fuente nativa (en android\app\src\main\java\com\aruiz\codigofibras\):
+    MainActivity.java  -> botón atrás, pellizco de zoom nativo, inyección
+    DownloadBridge.java -> guardar backups en Descargas
+  IMPORTANTE: android\local.properties debe tener (con barras normales):
+    sdk.dir=C:/Users/anton/AppData/Local/Android/Sdk
+
+
+NOTA: la carpeta V5.82 de la raíz es la app ORIGINAL sin tocar (copia maestra).
+      La versión que se empaqueta es la de nativo\www (self-contained, offline).

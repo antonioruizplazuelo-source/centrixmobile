@@ -1,0 +1,79 @@
+tenemos que terminar de añadir los equipos, pci, modulos,submodulos,preguntas formulario ,etc que faltan, de momento solo tenemos creado modulos para cuadro electrico. faltan estos:
+equipos de fuerza
+extintores pci
+baterias
+clima
+bombas de agua
+
+igual a los todos los equipos en el desplegable le podrias poner iconos emogis represntativo de cada uno , acurerdate del que ya tenemos creado cuadro electrico, y si creo un equipo nuevo , la app deberia mostrarme mas iconos ,emogis para poder añadirlos, descarga una pequeña biblioteca de iconos-emogis representativos del tema que estamos tratando
+
+a modo de recordatorio te muestro lo siguiente que ya deberias de saver para poner el tipo correto en cada campo del formulario y mas abajo despues de un asterico te pondre los equipos consus modulos, submodulos tipo de campo,etc, recuerda que todo tiene que ser editable desde configuracion, para editar,modificar,añadir,borrar,etc como tenemos ya con el cuadro electrico y listas desplegables
+:
+
+tipo0 si - no ( pues eso elegir entre si o no )
+tipo1 test  ok , no  ok  , n/a , corregido ( con iconos detallados, si pongo no ok o corregido deberá mostrarme un campo para poner una breve descripción del problema con salto de linea y que se ajuste al contenido)
+tipo2 con lista desplegable editable desde configuración, si no encuentro lo que quiero poder escribir lo que necesite
+tipo3 numero 
+tipo4 texto largo ( pues eso un campo donde pueda escribir el texto que yo quiera, con salto de linea y que se ajuste al contenido)
+
+tipo5 fecha dia/mes/año  difuminado para saber donde poner dia mes y año y tambien por calendario
+tipo6 fecha mes/año  difuminado para saber donde poner mes y año y tambien por calendario
+tipo7 fecha año  difuminado para saber donde poner año y tambien por calendario
+
+
+cada equipo , añadira diferentes resultados y pruebas, teniendo en cuenta que si hay mas de un equipo del mismo tipo, tambien se duplican resultados y valores.. te indico de momento solo el desglose de un tipo de equipo para no  liarla mucho y cuando lo tengamos a mi gusto te indico los siguientes. hay pruebas que aparte del resultado tipo test pueden pedir valor o varios valores, mediciones. a cada prueba , le podremos añadir un comentario tipo leyenda o poput que al parar encima se despliegle para una breve descripcion de como se realiza la prueba
+
+
+*equipo equipos de fuerza
+	a modo de formulario resultados y pruebas creara los siguientes modulos:
+		-PCI BJ  ALUMBRADO 	
+					 VERIFICACION DE ESTADO DE INTERRUPTORES (POR ELEMENTO)			tipo1
+					 VERIFICACION FUNCIONAMIENTO Y ESTADO ALUMBRADO DE EMERGENCIA		tipo1
+					 VERIFICACION DEL FUNCIONAMIENTO DE LUMINARIAS				tipo1
+
+		-CUADRO ELECTRICO 	 
+
+					 CUADRO ELECTRICO AUTOMATICO GENERAL REARMABLE (SI / NO)	tipo0   +   AUTOMATICO GENERAL REARMABLE (SI / NO) 	tipo1
+														    CALIBRE INTERRUPTOR GENERAL CUADRO E ICP	tipo3
+(por ejmeplo , en esta pregunta , tendremos que rellenar a mayores dos preguntas mas, una de si,no y otra indicar valor)
+
+					 CUADRO ELECTRICO MEDIDAS ALIMENTACION MONOFASICA	tipo1   +   	    INTENSIDAD DE FASE (A)				tipo3
+														    TENSION ENTRE FASE Y NEUTRO (V)			tipo3
+														    TENSION ENTRE NEUTRO Y TIERRA (V)			tipo3
+														    CALIBRE INTERRUPTOR GENERAL CUADRO E ICP (A)	tipo3
+
+					 CUADRO ELECTRICO COMPROBACION CALIBRES .FOTO DETALLE DEL INTERRUPTOR tipo1 +	    CALIBRES PROTECCIONES RECTIFICADORES.	tipo3
+															    CALIBRE INTERRUPTOR GENERAL  (A)		tipo3
+															    CALIBRE ICP (SI LO HUBIERA)  (A)		tipo3
+															    CALIBRE SI SUMISTRA TERCERO (A)		tipo3
+
+
+					 CUADRO ELECTRICO SEÑALIZACION RIESGO ELECTRICO tipo1
+
+					 TOMA DE RESISTENCIA DE TIERRA (OHMIOS)   tipo1  +			    Toma de resistencia de tierra (Ohmios) tipo3
+
+ 					 CUADRO ELECTRICO ESTADO GENERAL DEL CUADRO ELECTRICO (DESPERFECTOS, FOGONOZOS, ESTADO DE LOS DESCARGADORES Y DEMAS APARAMENTA) tipo1
+ 
+					 ESTADO PROTECCION CONTRA SOBRETENCIONES DESCARGADOR A TIERRA  tipo1
+
+					 ACTUACION REARMADORES AUTOMATICOS (CLIMA)  tipo1
+		
+					 REAPRIETE TORNILLERIA  tipo1
+
+					 CUADRO ELECTRICO MEDIDAS ALIMENTACION TRIFASICA  tipo1  +		INTENSIDAD FASE R (A)				tipo3
+														INTENSIDAD FASE S (A)				tipo3
+														INTENSIDAD FASE T (A)				tipo3
+														CALIBRE INTERRUPTOR GENERAL CUADRO E ICP	tipo3
+														TENSION ENTRE FASE R Y S (V)			tipo3
+														TENSION ENTRE FASE R Y T (V)			tipo3
+														TENSION ENTRE FASE S Y T (V)			tipo3
+					 
+
+
+		-LINEAS DE DISTRIBUCION  
+					 VERIFICAR ESTADO Y CONEXIONES DE BARRAJES						tipo1
+					 COMPROBAR CORRECTO CONEXIONADO DE LINEAS A CUADROS, PARA EVITAR SOBRECALENTAMIENTOS	tipo1
+
+		-RED DE TIERRAS 	 RED DE TIERRAS								tipo1 + tipo3
+					 VERIFICACION DE REGLETAS Y BARRAS GENERALES DE CONEXIONES A TIERRA	tipo1
+					 VERIFICACION DEL ESTADO DE PIEZAS Y CONECTORES				tipo1
