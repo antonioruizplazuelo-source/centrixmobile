@@ -1,21 +1,23 @@
 {
-  "name": "centrixmobile",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/antonioruizplazuelo-source/centrixmobile.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/antonioruizplazuelo-source/centrixmobile/issues"
-  },
-  "homepage": "https://github.com/antonioruizplazuelo-source/centrixmobile#readme"
+    "name":  "centrixmobile",
+    "version":  "1.0.0",
+    "description":  "",
+    "main":  "index.js",
+    "scripts":  {
+                    "test":  "echo \"Error: no test specified\" \u0026\u0026 exit 1"
+                },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/antonioruizplazuelo-source/centrixmobile.git"
+                   },
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "type":  "commonjs",
+    "bugs":  {
+                 "url":  "https://github.com/antonioruizplazuelo-source/centrixmobile/issues"
+             },
+    "homepage":  "https://github.com/antonioruizplazuelo-source/centrixmobile#readme"
 }
